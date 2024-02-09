@@ -3,6 +3,9 @@ This CSS adds Discord Nitro avatar decorations to SillyTavern Discord Inspired T
 
 ![](README/prev1.png) ![](README/prev2.png)
 
+# What it does?
+Adds animated frames for both User and Character avatars in chat. But there is more, this code also adds the user avatar decoration for the selected Persona inside the Persona Selection menu
+
 # Requirements
 The code was made to be used exclusively with Nyx's Discord Inspired Theme (and any compatible variant), it will NOT work correctly with other CSS themes (I will however port this to the default SillyTavern interface at a later time.)
 
@@ -30,7 +33,7 @@ You only need to pay attention to these lines at the beginning of the CSS code.
 
 }
 
-Comment lines make it self explanatory, just replace the file name of the PNG image with the file name of the decoration you want to use for both the User and Character, I'm providing a preview image so you don't have to navigate to the folder.
+Comment lines make it self explanatory, just replace the file name of the PNG image with the file name of the decoration you want to use for both the User and Character, I'm providing a preview image so you don't have to navigate to the folder. The first line of code will change the avatar frame for both the User avatar and the selected Persona inside the Persona Menu in both List and Grid mode.
 ![](README/Decorations_Preview.png)
 
 # TO DO LIST
