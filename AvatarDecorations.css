@@ -1,0 +1,114 @@
+:root {
+/*USER AND PERSONA MENU DECORATION*/
+--User-Decoration: url("img/dc-decorations/1_Starry-Eyed.png"); 
+
+/*CHARACTER DECORATION (GLOBAL)*/
+--Main-Char-Decoration: url("img/dc-decorations/4_Wizard's Staff.png");
+
+}
+
+
+
+/*START Persona Management - Selected Persona Decoration*/
+/*DECORATION LIST VIEW*/
+#user_avatar_block:not(.gridView) .avatar-container.selected::before{
+    position: absolute;
+    content: "";
+    height: 84px;
+    width: 84px;
+    background-image: var(--User-Decoration);
+    background-repeat: no-repeat;
+    background-position: left 0px top 1px;
+    background-size: 84px 84px;
+    margin-left: -10px;
+    margin-top: -12px;
+}
+
+/*DECORATION GRID VIEW*/
+#user_avatar_block.gridView .avatar-container.selected::before{
+    position: absolute;
+    content: "";
+    height: 84px;
+    width: 84px;
+    background-image: var(--User-Decoration);
+    background-repeat: no-repeat;
+    background-position: left 0px top 1px;
+    background-size: 84px 84px;
+    margin-left: 2px;
+    margin-top: -12px;
+}
+
+
+/*Avatar Size*/
+#user_avatar_block .avatar {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 5px;
+}
+
+
+/*Avatar Container Code*/
+/*GRID VIEW*/
+#user_avatar_block.gridView .avatar-container.selected {
+    border: none;
+    padding-top: 15px; 
+}
+
+/*LIST VIEW*/
+#user_avatar_block:not(.gridView) .avatar-container.selected {
+    border: none;
+}
+#user_avatar_block:not(.gridView) .avatar-container {
+    padding-left: 12px
+}
+
+#user_avatar_block:not(.gridView) .character_name_block, .ch_description {
+    padding-left: 10px
+}
+
+
+/*Temporal fix for Discord Inspired Theme issue with new Personas Menu, will delete if gets fixed in theme*/
+.paginationjs {
+  padding-top: 11px;
+}
+.paginationjs-nav {
+  position: unset;
+}
+
+/*END Persona Management Menu Code, Selected Persona Decoration*/
+
+
+/*START USER AND CHAR AVATAR DECORATION CODE*/
+
+#chat .avatar {
+   margin-left: 10px
+}
+
+/*USER Decoration*/
+#chat .mes[is_user="true"] .mesAvatarWrapper::after {
+    pointer-events: none;
+    content: "";
+    height: 60px;
+    width: 60px;
+    background-image: var(--User-Decoration);
+    background-repeat: no-repeat;
+    background-position: left 3px top 17px;
+    background-size: 55px 55px;
+    padding-top: 65px;
+    padding-left: 60px;
+}
+
+
+/*AI Decoration*/
+#chat .mes[is_user="false"] .mesAvatarWrapper::after {
+    pointer-events: none;
+    content: "";
+    height: 60px;
+    width: 60px;
+    background-image: var(--Main-Char-Decoration);
+    background-repeat: no-repeat;
+    background-position: left 3px top 17px;
+    background-size: 55px 55px;
+    padding-top: 65px;
+    padding-left: 60px;
+}
