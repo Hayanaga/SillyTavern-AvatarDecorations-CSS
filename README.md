@@ -1,5 +1,5 @@
-# SillyTavern-AvatarDecorations-CSS
-This CSS adds Discord Nitro avatar decorations to SillyTavern (Yes they are animated).
+# Avatar Decorations CSS for SillyTavern's Nyx Discord Inspired Theme
+This CSS adds Discord Nitro avatar decorations to SillyTavern Discord Inspired Theme (Yes they are animated).
 
 ![](README/prev1.png) ![](README/prev2.png)
 
