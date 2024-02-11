@@ -68,10 +68,10 @@
 
 
 /*Temporal fix for Discord Inspired Theme issue with new Personas Menu, will delete if gets fixed in theme*/
-.paginationjs {
+#persona_pagination_container .paginationjs {
   padding-top: 11px;
 }
-.paginationjs-nav {
+#persona_pagination_container .paginationjs-nav {
   position: unset;
 }
 
