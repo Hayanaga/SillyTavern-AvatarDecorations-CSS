@@ -112,3 +112,19 @@
     padding-top: 65px;
     padding-left: 60px;
 }
+
+/*Discord User Panel Decoration*/
+#right-nav-panel::before{
+    content: "";
+    height: 53px;
+    width: 200px;
+    position: absolute;
+    bottom: -1px;
+    background-image: var(--User-Decoration);
+    background-repeat: no-repeat;
+    background-size: 53px 53px;
+    padding-left: 40px;
+    margin-left: -3px;
+    z-index: 10;
+    pointer-events: none;
+}
