@@ -38,4 +38,3 @@ Comment lines make it self explanatory, just replace the file name of the PNG im
 
 # TO DO LIST
 - Add more decorations as Discord releases them.
-- Make this a SillyTavern Extension so I can add more funcionality like the ability to set per-character custom decorations, It is possible but not with CSS alone at least not in a non-cumbersome annoying way, that's better achieved with JavaScript and a more elaborated proper Extension, I'm still learning JavaScript and getting around how SillyTavern Extensions work so that might take a while.
